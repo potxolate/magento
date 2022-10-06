@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="header.panel">
+            <block class="Tribuladores\Weather\Block\Weather" name="Tribuladores_Weather_Name" template="Tribuladores_Weather::weather.phtml" />
+        </referenceContainer>
+    </body>
+</page>
