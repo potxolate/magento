@@ -31,7 +31,7 @@ class Weather extends \Magento\Framework\View\Element\Template
         $city=$ip_array->city;    
        
        
-        $apiKey = "04a2958d9eeb5df145c433452a8333da";
+        $apiKey = "your_api_key";
         $cityId = "$city,$country_name";
         $apiUrl = "https://api.openweathermap.org/data/2.5/weather?q=$cityId&units=metric&appid=$apiKey";
 
