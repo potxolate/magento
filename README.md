@@ -12,3 +12,4 @@ _Module that connects to Openweather (API) and obtains weather data from the cur
 ## Total Checkout 🚀
 
 _This module shows on the order confirmation page the total amount of money the customer has spent in the shop._
+
